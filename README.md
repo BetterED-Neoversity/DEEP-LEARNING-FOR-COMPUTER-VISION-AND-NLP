@@ -137,13 +137,13 @@ Sequence з механізмом уваги (кодувальник і деко�
 **Тема 13, відповіді на запитання —
 [`Module_7_Lecture_13_Class_kaggle`](notebooks/Module_7_Lecture_13_Class_kaggle.ipynb).** Екстрактивні
 відповіді на запитання: донавчання BERT (`google-bert/bert-base-cased`) на SQuAD — токенізація довгих контекстів
-вікнами з перекриттям, пошук початку й кінця відповіді, оцінювання за Exact Match і F1. Результат за 3 епохи:
-EM ≈ 80, F1 ≈ 88.
+вікнами з перекриттям, пошук початку й кінця відповіді, оцінювання за Exact Match і F1. Наприкінці донавчена
+модель відповідає на запитання з валідаційної вибірки та до власного тексту. Результат за 3 епохи: EM ≈ 80, F1 ≈ 88.
 
 **Тема 13, сумаризація —
 [`Module_7_Lecture_13_Class_summarization_kaggle`](notebooks/Module_7_Lecture_13_Class_summarization_kaggle.ipynb).**
 Абстрактивна сумаризація відгуків: донавчання T5 (`google-t5/t5-small`) на 2 % датасету Review Summarizer,
-оцінювання за ROUGE. Результат: ROUGE-1 ≈ 21 після 10 епох.
+оцінювання за ROUGE, приклади підсумків, згенерованих донавченою моделлю. Результат: ROUGE-1 ≈ 21 після 10 епох.
 
 **Тема 14 — [`Module_7_Lecture_14_Class`](notebooks/Module_7_Lecture_14_Class.ipynb).** Регуляризація й
 оптимізація навчання на MNIST: L2-регуляризація (weight decay), dropout, batch normalization, рання зупинка,
